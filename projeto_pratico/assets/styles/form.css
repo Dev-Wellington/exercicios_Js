@@ -41,8 +41,16 @@
 .form__button {
   border: none;
   outline: none;
+  cursor: pointer;
   min-height: 44px;
   border-radius: 1rem;
   background-color: #f50057;
   color: #fff;
+}
+.form__button:disabled{
+    cursor: not-allowed;
+    background-color:#ff99b3 ;
+}
+.form__button {
+    transition: background-color 0.3s ease, color 0.3s ease;
 }

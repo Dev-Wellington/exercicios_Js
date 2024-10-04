@@ -8,5 +8,14 @@
 <br>
 <br>
 <img  src="assets/images/readme_images/versao_estatica.png" alt="imagem da primeira versão estática">
+<br>
+<br>
+<h1>Melhorias e Desafios :</h1>
+<br>
+<ol>
+<li>Caso seja inserido um valor menor que zero será exibida uma mensagem embaixo do input e o botão de calcular fica desabilitado</li>
+<li></li>
+<li></li>
+</ol>
 
 <p>Em construção</p>
