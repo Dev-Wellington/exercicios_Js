@@ -1,7 +1,7 @@
 .main__content--right__details{
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    
     border-radius: 15px;
 }
 .summary__transactions-label,.summary__timer-label{
@@ -22,7 +22,16 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+}
+.teste22{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    padding: 0.5rem;
+    background-color: #fff;
 }
 .info__transaction,.info__gas{
     font-size:1.2rem;
